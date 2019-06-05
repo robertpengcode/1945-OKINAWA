@@ -1,0 +1,326 @@
+@import url('https://fonts.googleapis.com/css?family=Black+Ops+One|Orbitron|Press+Start+2P');
+
+body {
+  font-family: 'Black Ops One', cursive;
+  background-color: #E2F1C1;
+}
+
+footer {
+  text-align: center;
+  color: #113f67;
+}
+
+img {
+  vertical-align: top;
+}
+
+#dashboard {
+  width: 960px;
+  height: 115px;
+  border: 3px solid silver;
+  background-color: white;
+  margin: 10px auto 10px;
+  position: relative;
+}
+
+#dashboardLeft {
+  display: inline-block;
+  width: 343px;
+  height: 92px;
+  color: #113f67;
+  font-size: 1.1rem;
+  position: absolute;
+  left: 5px;
+  top: 5px;
+}
+
+#message {
+  width: 343px;
+  height: 50px;
+}
+
+#messageOnDash {
+  color: red;
+  background-color: yellow;
+  animation: blinker 1.5s linear infinite;
+  position: relative;
+  left: 30px;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+
+#lifeBar {
+  height: 16px;
+  width: 320px;
+  background-color: ;
+  border-radius: 15px;
+  border: 2px solid silver;
+  margin-left: 10px;
+}
+
+#life {
+  background-color: lawngreen;
+  width: 315px;
+  height: 13px;
+  border-radius: 13px;
+}
+
+#dashboardCenter {
+  display: inline-block;
+  width: 260px;
+  height: 92px;
+  border-left: 8px dotted red;
+  border-right: 8px dotted red;
+  text-align: center;
+  color: #113f67;
+  position: absolute;
+  left: 350px;
+  top: 5px;
+}
+
+#gameName {
+  width: 254px;
+  height: 50px;
+  display: inline-block;
+}
+
+#year {
+  color: blue;
+  font-size: 1.4em;
+}
+
+#o {
+  color: red;
+  font-size: 1.5em;
+}
+
+#kinawa {
+  color: green;
+  font-size: 1.4em;
+}
+
+#dashboardRight {
+  display: inline-block;
+  width: 340px;
+  height: 92px;
+  color: #113f67;
+  font-size: 1.2rem;
+  position: absolute;
+  left: 600px;
+  top: 5px;
+}
+
+#nameAndScore {
+  width: 240px;
+  height: 55px;
+  margin: 10px auto;
+}
+
+#gameArea {
+  width: 960px;
+  height: 544px;
+  background-color: lightblue;
+  border: 3px solid silver;
+  margin: 10px auto 10px;
+  position: relative;
+}
+
+#sun {
+  height: 60px;
+  width: 60px;
+  background-color: yellow;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  top: 50px;
+  left: 50px;
+}
+
+#sea {
+  width: 954px;
+  height: 60px;
+  background-color: blue;
+  position: absolute;
+  bottom: 0px;
+}
+
+#cloud1 {
+  height: 60px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 460px;
+  top: 160px;
+}
+
+#cloud2 {
+  height: 60px;
+  width: 150px;
+  background-color: white;
+  border-radius: 50%;
+  display: inline-block;
+  position: absolute;
+  left: 730px;
+  top: 110px;
+}
+
+#point1 {
+  height: 20px;
+  width: 20px;
+  background-color: lightblue;
+  position: absolute;
+  left: 350px;
+  top: 5px;
+}
+
+#point2 {
+  height: 20px;
+  width: 20px;
+  background-color: lightblue;
+  position: absolute;
+  left: 440px;
+  top: 5px;
+}
+
+#point3 {
+  height: 20px;
+  width: 20px;
+  background-color: lightblue;
+  position: absolute;
+  left: 530px;
+  top: 5px;
+}
+
+#island1 {
+  height: 120px;
+  width: 80px;
+  background-color: darkgreen;
+  border-radius: 60%;
+  display: inline-block;
+  position: absolute;
+  left: 50px;
+  top: 410px;
+}
+
+#island2 {
+  height: 180px;
+  width: 120px;
+  background-color: darkgreen;
+  border-radius: 60%;
+  display: inline-block;
+  position: absolute;
+  left: 120px;
+  top: 355px;
+}
+
+#jpflag {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  position: absolute;
+  top: 420px;
+  left: 160px;
+}
+
+#gun1 {
+  height: 30px;
+  width: 9px;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: 8px;
+}
+
+#gun2 {
+  height: 30px;
+  width: 9px;
+  background-color: black;
+  display: inline-block;
+  position: absolute;
+  top: -15px;
+  left: 22px;
+}
+
+#gunBase {
+  height: 40px;
+  width: 40px;
+  background-color: gray;
+  display: inline-block;
+  border-radius: 40%;
+  position: absolute;
+  top: 436px;
+  left: 450px;
+}
+
+#shipTop {
+  height: 60px;
+  width: 75px;
+  background-color: darkgray;
+  display: inline-block;
+  border-radius: 30%;
+  position: absolute;
+  top: 420px;
+  left: 600px;
+}
+
+#ship {
+  height: 80px;
+  width: 400px;
+  background-color: darkgray;
+  display: inline-block;
+  border-radius: 60%;
+  position: absolute;
+  top: 420px;
+  left: 340px;
+}
+
+#shipBlock {
+  height: 40px;
+  width: 400px;
+  background-color: lightblue;
+  display: inline-block;
+  position: absolute;
+  top: 420px;
+  left: 340px;
+}
+
+#usflag {
+  height: 45px;
+  width: 45px;
+  display: inline-block;
+  position: absolute;
+  top: 425px;
+  left: 613px;
+}
+
+.bullet {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: red;
+  border-radius: 50px;
+  display: inline-block;
+}
+
+.kamikaze {
+  height: 70px;
+  width: 70px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: inline-block;
+}
+
+#exitGame {
+  position: absolute;
+  left: 405px;
+  top: 5px;
+  visibility: hidden;
+}
