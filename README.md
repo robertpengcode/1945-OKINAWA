@@ -21,13 +21,19 @@ Languages and skills:
       setInterval(), setTimeout(), clearInterval()<br/>
       requestAnimationFrame(), cancelAnimationFrame()<br/>
 
-    b. events: addEventListener(), callback function<br/>
+    c. events: addEventListener(), callback function<br/>
       event.preventDefault, event.keyCode<br/>
 
-    c. switch statement<br/>
-    d. for loop: for...of<br/>
-    e. if, else if, else<br/>
-    f. functions<br/>
-    g. array, index<br/>
-    h. location.reload()<br/>
-    i. new Audio(), play()<br/>
+    d. switch statement<br/>
+
+    e. for loop: for...of<br/>
+
+    f. if, else if, else<br/>
+
+    g. functions<br/>
+
+    h. array, index<br/>
+
+    i. location.reload()<br/>
+
+    j. new Audio(), play()<br/>
