@@ -12,7 +12,7 @@ Languages and skills:
     c. left & top properties<br/>
 
   3. JavaScript:<br/>
-    a. DOM manipulation:<br/>:
+    a. DOM manipulation:<br/>
       properties: style, offsetTop, innerHTML<br/>
       methods: getElementById(), appendChild(), parentNode.removeChild()<br/>
       querySelectorAll(), setAttribute(), getBoundingClientRect()<br/>
