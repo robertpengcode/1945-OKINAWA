@@ -16,24 +16,15 @@ Languages and skills:
       properties: style, offsetTop, innerHTML<br/>
       methods: getElementById(), appendChild(), parentNode.removeChild()<br/>
       querySelectorAll(), setAttribute(), getBoundingClientRect()<br/>
-
     b. animation:<br/>
       setInterval(), setTimeout(), clearInterval()<br/>
       requestAnimationFrame(), cancelAnimationFrame()<br/>
-
     c. events: addEventListener(), callback function<br/>
       event.preventDefault, event.keyCode<br/>
-
     d. switch statement<br/>
-
     e. for loop: for...of<br/>
-
     f. if, else if, else<br/>
-
     g. functions<br/>
-
     h. array, index<br/>
-
     i. location.reload()<br/>
-
     j. new Audio(), play()<br/>
