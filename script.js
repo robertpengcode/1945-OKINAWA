@@ -202,7 +202,7 @@ function pressKey(event) {
 }
 
 function showName() {
-  nameOnDash.innerHTML = `${name}`;
+  nameOnDash.innerHTML = `${playerName}`;
 }
 
 function addScore() {
