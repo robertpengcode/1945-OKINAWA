@@ -1,5 +1,3 @@
-console.log('script.js loaded');
-
 //declare variables for showing messages
 const messageOnDash = document.getElementById('messageOnDash');
 const messages = ["Game Over!!", "Abandon Ship!", "There Are So Many!", "Keep Firing!", "Shoot Them Down Now!!", "Kamikaze! Shoot Them!", ]
@@ -31,7 +29,7 @@ let messageNum = 5;
 let gunBasePos = 450;
 let gunBaseTop = 436;
 let score = 0;
-let name = '';
+let playerName = '';
 let onPlay = false;
 let animateGame;
 
@@ -43,8 +41,8 @@ btnExit.addEventListener('click', refresh);
 function startGame() {
   backgroundSound = setInterval(playPlaneSound, 20500);
   reset();
-  if (!name) {
-    name = prompt("Welcom to 1945 OKINAWA. Let's shoot Kamikaze down!\n\nRules:\n1. Hit spacebar to shoot.\n2. Use arrow keys to move the gun right or left.\n\nPlease enter your name:", "Harry Potter");
+  if (playerName === '') {
+    playerName = prompt("Welcom to 1945 OKINAWA. Let's shoot Kamikaze down!\n\nRules:\n1. Hit spacebar to shoot.\n2. Use arrow keys to move the gun right or left.\n\nPlease enter your name:", "Harry Potter");
   }
   showName();
   postScore();
@@ -61,7 +59,7 @@ function runGame() {
     flyKamikaze();
     moveBullet();
     animateGame = requestAnimationFrame(runGame);
-  }
+  } 
 }
 
 function gameOver() {
@@ -80,8 +78,6 @@ function gameOver() {
   btnStart.innerHTML = "Play Again";
   btnExit.style.visibility = "visible";
 }
-
-
 
 function refresh() {
   location.reload();
@@ -134,7 +130,7 @@ function flyKamikaze(kamikaze) {
       plane.parentNode.removeChild(plane);
       createKamikaze();
     } else {
-      plane.style.top = plane.offsetTop + 6 + 'px'; 
+      plane.style.top = plane.offsetTop + 5 + 'px'; 
     }
   }
 }
